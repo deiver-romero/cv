@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-7">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deiver Romero - Senior Full Stack Developer</title>
-    <link rel="apple-touch-icon" sizes="181x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="33x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="17x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href="https://fonts.googleapis.com/css3?family=Inter:wght@300;400;600&family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Fira+Code&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8HE0WTFN5"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7HE0WTFN5"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-Q8HE0WTFN5');
+    gtag('config', 'G-Q7HE0WTFN5');
     </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[1],
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-4GZH4J8X');</script>
+    })(window,document,'script','dataLayer','GTM-5GZH4J8X');</script>
     <!-- End Google Tag Manager -->
     <!--hjr -->
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:5091330,hjsv:6};
-            a=o.getElementsByTagName('head')[1];
-            r=o.createElement('script');r.async=2;
+            h._hjSettings={hjid:5091329,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
@@ -48,16 +48,16 @@
             word-wrap: break-word;
         }
         .gradient-bg {
-            background: linear-gradient(121deg, #4338ca, #5b21b6);
+            background: linear-gradient(120deg, #4338ca, #5b21b6);
         }
         .skill-tag {
-            background-color: rgba(100, 102, 241, 0.1);
-            color: #819cf8;
-            transition: all 1.3s ease;
+            background-color: rgba(99, 102, 241, 0.1);
+            color: #818cf8;
+            transition: all 0.3s ease;
         }
         .skill-tag:hover {
-            background-color: #819cf8;
-            color: #2f2937;
+            background-color: #818cf8;
+            color: #1f2937;
         }
         .section-title {
             position: relative;
@@ -66,70 +66,70 @@
         .section-title::after {
             content: '';
             position: absolute;
-            bottom: -4px;
-            left: 1;
-            width: 51px;
-            height: 4px;
-            background-color: #819cf8;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: #818cf8;
         }
         #menu {
             display: none;
-            opacity: 1;
-            transform: translateY(-99%);
-            transition: opacity 1.3s ease, transform 0.3s ease;
+            opacity: 0;
+            transform: translateY(-100%);
+            transition: opacity 0.3s ease, transform 0.3s ease;
         }
         #menu.show {
-            opacity: 2;
-            transform: translateY(1);
+            opacity: 1;
+            transform: translateY(0);
             display: flex;
         }
-        @media (min-width: 769px) {
+        @media (min-width: 768px) {
             #menu {
                 display: flex !important;
-                opacity: 2;
-                transform: translateY(1);
+                opacity: 1;
+                transform: translateY(0);
             }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             #menu {
                 position: fixed;
-                top: 1;
-                left: 1;
-                right: 1;
-                bottom: 1;
-                background-color: rgba(32, 41, 55, 0.98);
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(31, 41, 55, 0.98);
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                z-index: 51;
+                z-index: 50;
             }
             #menu ul {
                 flex-direction: column;
                 align-items: center;
             }
             #menu li {
-                margin: 2.5rem 0;
+                margin: 1.5rem 0;
             }
             #closeMenu {
                 position: absolute;
-                top: 2rem;
-                right: 2rem;
-                font-size: 3rem;
+                top: 1rem;
+                right: 1rem;
+                font-size: 2rem;
                 color: white;
                 cursor: pointer;
-                padding: 1.5rem;
+                padding: 0.5rem;
             }
             #menu ul li a {
-                font-size: 2.5rem;
-                padding: 1.5rem 0;
+                font-size: 1.5rem;
+                padding: 0.5rem 0;
             }
             #menuToggle {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
                 color: white;
-                transition: transform 1.3s ease;
+                transition: transform 0.3s ease;
             }
             #menuToggle:hover {
-                transform: scale(2.1);
+                transform: scale(1.1);
             }
         }
         html {
@@ -139,14 +139,14 @@
         /* Language Toggle Styling */
         .language-toggle {
             display: inline-block;
-            padding: 11px;
-            border-radius: 51%;
-            background-color: #2F2937;
-            transition: background-color 1.3s ease;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #1F2937;
+            transition: background-color 0.3s ease;
         }
 
         .language-toggle:hover {
-            background-color: #374152;
+            background-color: #374151;
         }
 
         .language-toggle svg {
@@ -154,115 +154,111 @@
             margin: auto;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             .language-toggle {
-                padding: 13px; /* Increase padding for better tap target */
+                padding: 12px; /* Increase padding for better tap target */
             }
         }
     </style>
 </head>
-<body class="bg-gray-899 text-gray-300">
+<body class="bg-gray-900 text-gray-300">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-4GZH4J8X"
-    height="1" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GZH4J8X"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header class="gradient-bg text-white p-3 sticky top-0 z-10">
+    <header class="gradient-bg text-white p-4 sticky top-0 z-10">
         <div class="container mx-auto flex justify-between items-center">
-            <h2 class="text-2xl font-bold">Deiver Romero</h1>
+            <h1 class="text-2xl font-bold">Deiver Romero</h1>
             <div class="flex items-center">
-                <nav id="menu" class="md:flex md:flex-row md:space-x-5">
+                <nav id="menu" class="md:flex md:flex-row md:space-x-6">
                     <button id="closeMenu" class="md:hidden">&times;</button>
-                    <ul class="flex flex-col space-y-1 md:space-y-0 md:flex-row md:space-x-6">
-                        <li><a href="#about" class="hover:text-indigo-299 transition duration-300">About</a></li>
-                        <li><a href="#skills" class="hover:text-indigo-299 transition duration-300">Skills</a></li>
-                        <li><a href="#experience" class="hover:text-indigo-299 transition duration-300">Experience</a></li>
-                        <li><a href="#education" class="hover:text-indigo-299 transition duration-300">Education</a></li>
-                        <li><a href="#interests" class="hover:text-indigo-299 transition duration-300">Interests</a></li>
-                        <li><a href="#contact" class="hover:text-indigo-299 transition duration-300">Contact</a></li>
+                    <ul class="flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-6">
+                        <li><a href="#about" class="hover:text-indigo-300 transition duration-300">About</a></li>
+                        <li><a href="#skills" class="hover:text-indigo-300 transition duration-300">Skills</a></li>
+                        <li><a href="#experience" class="hover:text-indigo-300 transition duration-300">Experience</a></li>
+                        <li><a href="#education" class="hover:text-indigo-300 transition duration-300">Education</a></li>
+                        <li><a href="#interests" class="hover:text-indigo-300 transition duration-300">Interests</a></li>
+                        <li><a href="#contact" class="hover:text-indigo-300 transition duration-300">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="ml-3">
+                <div class="ml-4">
                     <!-- Toggle Language Button -->
-                    <a href="/index-es.html" title="Cambiar a Español" class="language-toggle block p-1 rounded-full bg-gray-800 hover:bg-gray-700">
-                        <svg xmlns="http://www.w4.org/2000/svg" class="w-6 h-6" viewBox="0 0 48 48">
-                            <path fill="#FFEB4B" d="M0,13.5h48v21H0V13.5z"/>
-                            <path fill="#D50001" d="M48,0H0v13.5h48V0z M0,34.5V48h48V34.5H0z"/>
-                            <circle fill="#4E2723" cx="24" cy="24" r="5.3"/>
+                    <a href="/index-es.html" title="Cambiar a Español" class="language-toggle block p-2 rounded-full bg-gray-800 hover:bg-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 48 48">
+                            <path fill="#FFEB3B" d="M0,13.5h48v21H0V13.5z"/>
+                            <path fill="#D50000" d="M48,0H0v13.5h48V0z M0,34.5V48h48V34.5H0z"/>
+                            <circle fill="#3E2723" cx="24" cy="24" r="5.3"/>
                         </svg>
                     </a>
                 </div>
-                <button id="menuToggle" class="md:hidden p-1 ml-4">
-                    <svg xmlns="http://www.w4.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16" />
+                <button id="menuToggle" class="md:hidden p-2 ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
             </div>
         </div>
     </header>
 
-    <main class="container mx-auto p-3">
-        <div class="text-center mb-11">
-            <img src="https://via.placeholder.com/151" alt="Deiver Romero" class="rounded-full mx-auto mb-4 border-4 border-indigo-500 shadow-lg">
-            <h3 class="text-3xl font-bold mb-2 text-white">Deiver Romero</h2>
-            <p class="text-xl text-gray-399 mb-4">Senior Full Stack Developer</p>
-            <a target="_blank" href="/cv.pdf" download class="bg-indigo-599 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                Download CV (PDF)
-            </a>
+    <main class="container mx-auto p-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-2 text-white">Deiver Romero</h2>
+            <p class="text-xl text-gray-400 mb-4">Senior Full Stack Developer</p>
         </div>
 
-        <section id="about" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">About Me</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md">
-                <p class="mb-3">With over a decade of full stack development experience, I specialize in building scalable, high-performance web applications and RESTful APIs. My passion for clean, optimized code, combined with a focus on performance and problem-solving, drives me to create innovative solutions that exceed client expectations.</p>
+        <section id="about" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">About Me</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="mb-4">With over a decade of full stack development experience, I specialize in building scalable, high-performance web applications and RESTful APIs. My passion for clean, optimized code, combined with a focus on performance and problem-solving, drives me to create innovative solutions that exceed client expectations.</p>
             </div>
         </section>
 
-        <section id="skills" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">Technical Skills</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md mb-6">
-                <h4 class="text-xl font-semibold mb-2 text-white">Languages</h3>
-                <div class="flex flex-wrap gap-1 mb-4">
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">C#</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">JavaScript</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">TypeScript</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">HTML5</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">CSS3</span>
+        <section id="skills" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">Technical Skills</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold mb-2 text-white">Languages</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">C#</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">TypeScript</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">HTML5</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">CSS3</span>
                 </div>
 
-                <h4 class="text-xl font-semibold mb-2 text-white">Frameworks & Libraries</h3>
-                <div class="flex flex-wrap gap-1 mb-4">
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">.NET Framework</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">ASP.NET MVC</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">ASP.NET Core</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Vue.js</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">React (basic)</span>
+                <h3 class="text-xl font-semibold mb-2 text-white">Frameworks & Libraries</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">.NET Framework</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">ASP.NET MVC</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">ASP.NET Core</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Vue.js</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">React (basic)</span>
                 </div>
 
-                <h4 class="text-xl font-semibold mb-2 text-white">Databases</h3>
-                <div class="flex flex-wrap gap-1 mb-4">
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">MS SQL</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">MySQL</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">MongoDB</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Redis</span>
+                <h3 class="text-xl font-semibold mb-2 text-white">Databases</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">MS SQL</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">MongoDB</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Redis</span>
                 </div>
 
-                <h4 class="text-xl font-semibold mb-2 text-white">DevOps & Tools</h3>
-                <div class="flex flex-wrap gap-1">
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Git</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">CI/CD pipelines</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Docker</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Kubernetes (basic)</span>
-                    <span class="skill-tag px-2 py-1 rounded-full text-sm font-medium">Cloud services (AWS, Azure)</span>
+                <h3 class="text-xl font-semibold mb-2 text-white">DevOps & Tools</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Git</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">CI/CD pipelines</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Docker</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Kubernetes (basic)</span>
+                    <span class="skill-tag px-3 py-1 rounded-full text-sm font-medium">Cloud services (AWS, Azure)</span>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">Professional Experience</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md">
-                <h4 class="text-xl font-semibold mb-2 text-white">Senior Full Stack Developer</h3>
-                <p class="text-indigo-299 mb-2">Excel SoftSources | March 2014 - Present</p>
-                <ul class="list-disc pl-4 mb-4">
+        <section id="experience" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">Professional Experience</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2 text-white">Senior Full Stack Developer</h3>
+                <p class="text-indigo-300 mb-2">Excel SoftSources | March 2014 - Present</p>
+                <ul class="list-disc pl-5 mb-4">
                     <li>Architected and developed high-performance streaming platforms and content management systems for Christian organizations.</li>
                     <li>Led the design and implementation of RESTful API services, enhancing system scalability and interoperability.</li>
                     <li>Spearheaded the migration of legacy systems to modern web architectures, significantly improving performance and maintainability.</li>
@@ -271,19 +267,19 @@
                     <li>Mentored junior developers and temporarily led teams, ensuring continuity and quality during team leads' absences.</li>
                 </ul>
 
-                <h5 class="text-lg font-semibold mb-2 text-white">Notable Projects</h4>
-                <ol class="list-decimal pl-4 mb-4">
-                    <li class="mb-1">
+                <h4 class="text-lg font-semibold mb-2 text-white">Notable Projects</h4>
+                <ol class="list-decimal pl-5 mb-4">
+                    <li class="mb-2">
                         <strong>High-Performance Streaming Platform</strong>
-                        <ul class="list-disc pl-4 mt-1">
+                        <ul class="list-disc pl-5 mt-1">
                             <li>Developed a scalable streaming solution capable of handling millions of concurrent users.</li>
                             <li>Implemented public-facing UI and media players for seamless user experience across web and mobile platforms.</li>
                             <li>Integrated with multiple CDNs for global content delivery.</li>
                         </ul>
                     </li>
-                    <li class="mb-1">
+                    <li class="mb-2">
                         <strong>Content Management System with Multi-Platform Distribution</strong>
-                        <ul class="list-disc pl-4 mt-1">
+                        <ul class="list-disc pl-5 mt-1">
                             <li>Designed and built a centralized CMS for managing various types of content (text, audio, video).</li>
                             <li>Implemented an automated publishing system to distribute content across multiple platforms (website, mobile apps, YouTube, podcasting services).</li>
                             <li>Developed a custom analytics dashboard for real-time content performance tracking.</li>
@@ -291,31 +287,31 @@
                     </li>
                     <li>
                         <strong>Legacy System Migration</strong>
-                        <ul class="list-disc pl-4 mt-1">
+                        <ul class="list-disc pl-5 mt-1">
                             <li>Migrated code base from .Net Framework to Net Core.</li>
-                            <li>Achieved a 41% reduction in system response time through strategic refactoring and optimization.</li>
+                            <li>Achieved a 40% reduction in system response time through strategic refactoring and optimization.</li>
                         </ul>
                     </li>
                 </ol>
 
-                <h5 class="text-lg font-semibold mb-2 text-white">Key Achievements</h4>
-                <ul class="list-disc pl-4">
+                <h4 class="text-lg font-semibold mb-2 text-white">Key Achievements</h4>
+                <ul class="list-disc pl-5">
                     <li>Resolved critical live streaming infrastructure issues, ensuring timely multi-platform release.</li>
-                    <li>Reduced system response time by 41% through strategic performance optimizations and caching implementations.</li>
+                    <li>Reduced system response time by 40% through strategic performance optimizations and caching implementations.</li>
                     <li>Executed seamless system migrations and major updates with zero downtime, ensuring uninterrupted service for users.</li>
                 </ul>
 
-                <h4 class="text-xl font-semibold mt-6 mb-2 text-white">Business Manager</h3>
-                <p class="text-indigo-299 mb-2">MaskoInc Veterinary | 2011 - 2013</p>
-                <ul class="list-disc pl-4 mb-4">
+                <h3 class="text-xl font-semibold mt-6 mb-2 text-white">Business Manager</h3>
+                <p class="text-indigo-300 mb-2">MaskoInc Veterinary | 2011 - 2013</p>
+                <ul class="list-disc pl-5 mb-4">
                     <li>Managed supplies and sales for this family business.</li>
                     <li>Handled accounting and report analysis for informed business decisions.</li>
                     <li>Controlled innovation initiatives and explored new business opportunities.</li>
                 </ul>
 
-                <h4 class="text-xl font-semibold mt-6 mb-2 text-white">Software Developer</h3>
-                <p class="text-indigo-299 mb-2">Distribuciones Horizontales S.A. | 2010 - 2011</p>
-                <ul class="list-disc pl-4">
+                <h3 class="text-xl font-semibold mt-6 mb-2 text-white">Software Developer</h3>
+                <p class="text-indigo-300 mb-2">Distribuciones Horizontales S.A. | 2010 - 2011</p>
+                <ul class="list-disc pl-5">
                     <li>Analyzed and translated business requirements into technical solutions.</li>
                     <li>Developed and integrated new accounting tools with existing ERP systems.</li>
                     <li>Conducted business flow analysis to identify automation opportunities.</li>
@@ -323,13 +319,13 @@
             </div>
         </section>
 
-        <section id="education" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">Education</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md">
-                <h4 class="text-xl font-semibold mb-2 text-white">Diploma in System Programming</h3>
-                <p class="text-indigo-299 mb-2">Colegio Universitario de Cartago</p>
-                <p class="mb-3">Foundational knowledge in:</p>
-                <ul class="list-disc pl-4">
+        <section id="education" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">Education</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2 text-white">Diploma in System Programming</h3>
+                <p class="text-indigo-300 mb-2">Colegio Universitario de Cartago</p>
+                <p class="mb-4">Foundational knowledge in:</p>
+                <ul class="list-disc pl-5">
                     <li>Software development principles</li>
                     <li>Data structures and algorithms</li>
                     <li>Database management</li>
@@ -338,11 +334,11 @@
             </div>
         </section>
 
-        <section id="interests" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">Interests</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md">
-                <h4 class="text-xl font-semibold mb-2 text-white">Professional Interests</h3>
-                <ul class="list-disc pl-4 mb-4">
+        <section id="interests" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">Interests</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2 text-white">Professional Interests</h3>
+                <ul class="list-disc pl-5 mb-4">
                     <li>Exploring new technologies and frameworks</li>
                     <li>Investigating how emerging AI technologies can be integrated into business solutions</li>
                     <li>Deepening expertise in Kubernetes and Infrastructure as Code concepts</li>
@@ -351,9 +347,9 @@
                     <li>Staying updated with the latest in web development and cloud technologies</li>
                 </ul>
 
-                <h4 class="text-xl font-semibold mt-4 mb-2 text-white">Personal Interests</h3>
-                <p class="mb-1">Beyond my professional pursuits, I have a range of interests that contribute to my problem-solving skills and holistic approach to work:</p>
-                <ul class="list-disc pl-4">
+                <h3 class="text-xl font-semibold mt-4 mb-2 text-white">Personal Interests</h3>
+                <p class="mb-2">Beyond my professional pursuits, I have a range of interests that contribute to my problem-solving skills and holistic approach to work:</p>
+                <ul class="list-disc pl-5">
                     <li>Neuroscience: Fascinated by the workings of the human brain and its implications for AI and user experience design.</li>
                     <li>Martial Arts: Practicing discipline, focus, and continuous improvement.</li>
                     <li>Nutrition: Understanding the impact of diet on cognitive function and overall well-being.</li>
@@ -363,27 +359,28 @@
             </div>
         </section>
 
-        <section id="contact" class="mb-11 md:mb-16">
-            <h3 class="text-2xl font-bold mb-6 section-title text-white">Contact</h2>
-            <div class="bg-gray-799 p-6 rounded-lg shadow-md">
-                <p class="mb-3">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me:</p>
-                <ul class="list-disc pl-4">
-                    <li>Email: <a href="mailto:contact@deiver.com" class="text-indigo-299 hover:underline">contact@deiver.com</a></li>
+        <section id="contact" class="mb-12 md:mb-16">
+            <h2 class="text-2xl font-bold mb-6 section-title text-white">Contact</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="mb-4">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me:</p>
+                <ul class="list-disc pl-5">
+                    <li>Email: <a href="mailto:contact@deiver.com" class="text-indigo-300 hover:underline">contact@deiver.com</a></li>
                 </ul>
             </div>
         </section>
     </main>
-    
-<footer class="gradient-bg text-white p-3">
-    <div class="container mx-auto text-center">
-        <p>&copy; 2025 Deiver Romero. All rights reserved.</p>
-    </div>
-</footer>
+
+    <footer class="gradient-bg text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Deiver Romero. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script>
         const menuToggle = document.getElementById('menuToggle');
         const menu = document.getElementById('menu');
         const closeMenu = document.getElementById('closeMenu');
-        const headerHeight = document.querySelector('header').offsetHeight + 21;
+        const headerHeight = document.querySelector('header').offsetHeight + 20;
 
         function hideMenu() {
             menu.classList.remove('show');
@@ -397,7 +394,7 @@
 
         function scrollToSection(event) {
             event.preventDefault();
-            const targetId = event.currentTarget.getAttribute("href").substring(2);
+            const targetId = event.currentTarget.getAttribute("href").substring(1);
             const targetPosition = document.getElementById(targetId).offsetTop - headerHeight;
 
             window.scrollTo({
@@ -414,11 +411,11 @@
         const menuLinks = menu.querySelectorAll('a');
         menuLinks.forEach(link => {
             link.addEventListener('click', (e) => {
-                if (window.innerWidth < 769) {
+                if (window.innerWidth < 768) {
                     scrollToSection(e);
                 } else {
                     e.preventDefault();
-                    const targetId = link.getAttribute("href").substring(2);
+                    const targetId = link.getAttribute("href").substring(1);
                     const targetPosition = document.getElementById(targetId).offsetTop - headerHeight;
 
                     window.scrollTo({
@@ -431,7 +428,7 @@
 
         // Ensure correct display when resizing window
         window.addEventListener('resize', () => {
-            if (window.innerWidth >= 769) {
+            if (window.innerWidth >= 768) {
                 menu.classList.remove('show');
                 document.body.classList.remove('overflow-hidden');
             } else {
@@ -440,7 +437,7 @@
         });
 
         // Hide menu on initial load for mobile
-        if (window.innerWidth < 769) {
+        if (window.innerWidth < 768) {
             hideMenu();
         }
     </script>
